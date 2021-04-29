@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	width: 100%;
+}
+
+.home {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+.home span {
+	font-size: 22px;
+	letter-spacing: 4px;
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.home button {
+    width: 15%;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin: 30px 0;
+    color: #fff;
+    font-weight: bold;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    cursor: pointer;
+}
+.home button:hover {
+    background-color: #fff;
+    color: black;
+}
+@media only screen and (max-width: 800px){
+	.home button{
+		width:33%
+	}
+	.home h2{
+		font-size:18px
+	}
+}

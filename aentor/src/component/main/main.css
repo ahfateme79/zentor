@@ -1,0 +1,421 @@
+main {
+	width: 100%;
+}
+
+.foodgallery {
+	width: 100%;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.heading {
+	padding: 40px;
+}
+
+h3 {
+	border-bottom: 2px solid black;
+	padding: 10px;
+}
+
+.fooditem {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+}
+
+.fooditem div {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.fooditem figure {
+	width: 90%;
+	margin: 10px;
+}
+
+.fooditem img {
+	width: 100%;
+}
+
+.fooditem span {
+	font-weight: bold;
+}
+
+@media only screen and (max-width:900px) {
+	.fooditem {
+		flex-wrap: wrap;
+	}
+	
+	.fooditem div {
+		width: 100%;
+	}
+	
+}
+
+.special {
+	width: 100%;
+	padding: 30px;
+	background-color: rgb(238, 233, 233);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.menuhead {
+	height: 100px;
+}
+
+.menuhead h4 {
+	border-bottom: 2px solid black;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.foodmenu {
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.price {
+	margin: 30px;
+	line-height: 2;
+}
+
+.foodmenu h4 {
+	display: inline-block
+}
+
+.price h4, p {
+	color: rgb(74, 72, 72)
+}
+
+.price span {
+	color: rgb(84, 79, 79);
+	font-weight: bold
+}
+
+@media only screen and (max-width:700px) {
+	.foodmenu {
+		width: 100%;
+	}
+	
+}
+
+.chefs {
+	width: 100%;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.chefhead {
+	padding: 30px
+}
+
+.chefhead h5 {
+	font-size: 25px;
+	border-bottom: 2px solid black;
+	padding: 10px;
+}
+
+.photos {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.photos figure {
+	width: 30%;
+	height: 30vw;
+}
+
+.photos img {
+	width: 100%;
+	height: 70%;
+}
+
+.photos figcaption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.photos span {
+	margin: 20px 0;
+	font-size: 18px;
+	color: rgb(86, 82, 82);
+}
+
+.photos h5 {
+	font-size: 20px;
+	color: rgb(41, 39, 39);
+	font-weight: 500;
+}
+
+@media only screen and (max-width:850px) {
+	.chefhead {
+		padding: 10px
+	}
+	
+	.chefhead h5 {
+		font-size: 20px;
+		border-bottom: 2px solid black;
+		padding: 5px;
+		margin: 20px 0
+	}
+	
+	.photos figure {
+		width: 100%;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	
+}
+
+.contact {
+	width: 100%;
+	padding: 30px;
+	background-color: rgb(238, 233, 233);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contactead {
+	padding: 30px;
+}
+
+.contactead h6 {
+	font-size: 25px;
+	border-bottom: 2px solid black;
+	padding: 10px;
+}
+
+.contact-body {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contact-body div {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.contact-body input {
+	width: 40%;
+	height: 40px;
+	padding: 20px;
+	margin: 30px;
+	border: none;
+}
+
+.contact-body textarea {
+	width: 85%;
+	height: 200px;
+	padding: 20px;
+	border: none;
+}
+
+.contact-body button {
+	width: 50%;
+	height: 50px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	background-color: transparent;
+	color: rgb(120, 115, 115);
+	border: 2px solid rgb(120, 118, 118);
+	margin: 30px 0;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.contact-body button:hover {
+	background-color: rgb(106, 102, 102);
+	color: rgb(238, 232, 232);
+}
+
+@media only screen and (max-width:750px) {
+	.contact-body {
+		width: 100%;
+	}
+	
+	.contact-body div {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	
+	.contact-body input {
+		width: 100%;
+		height: 40px;
+		padding: 20px;
+		margin: 18px;
+		border: none;
+	}
+	
+	.contact-body textarea {
+		width: 90%;
+		height: 200px;
+		padding: 20px;
+		border: none;
+	}
+	
+	.contact-body button {
+		width: 70%;
+		font-size: 14px;
+	}
+	
+}
+
+.contactinfo {
+	width: 100%;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	padding: 40px 0;
+	flex-wrap: wrap;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactinfo p {
+	color: white;
+}
+
+.details div {
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0;
+	color: white;
+}
+
+.contactinfo h6 {
+	font-size: 23px;
+	margin: 20px 0;
+}
+
+.hours {
+	display: flex;
+	flex-direction: column;
+}
+
+.days {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.days div {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+.days div p {
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+.follow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.follow div {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.follow figure {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(236, 227, 227);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	margin: 20px;
+	cursor: pointer;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+}
+
+.follow figure:hover {
+	background-color: rgb(243, 204, 74);
+	transform: translateY(5px);
+	-webkit-transform: translateY(5px);
+	-moz-transform: translateY(5px);
+	-ms-transform: translateY(5px);
+	-o-transform: translateY(5px);
+}
+
+.follow img {
+	width: 20px;
+	height: 20px;
+}
+
+@media only screen and (max-width:700px) {
+	.hours, .details, .follow {
+		width: 100%;
+		align-items: center;
+	}
+	
+	.details {
+		text-align: center;
+	}
+	
+	.follow {
+		padding: 20px;
+	}
+	
+	.follow figure {
+		width: 40px;
+		height: 40px;
+	}
+	
+}

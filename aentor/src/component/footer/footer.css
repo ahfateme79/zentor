@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(83, 80, 80);
+    color: rgb(236, 229, 229);
+}
+footer span{
+    font-weight: bold;
+}
+footer p{
+    color: rgb(236, 229, 229);
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
